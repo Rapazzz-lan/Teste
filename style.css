@@ -1,0 +1,99 @@
+:root{
+    --bordaCinza: #423E3B;
+    --header: #FF2E00;
+    --background: #FEA82F;
+    --corFooter: #FFFECB;
+    --corBtn: #5448C8;
+    --main: white;
+    --preto: #000;
+}
+
+body{
+    /*Cor do fundo do site*/
+    background-color: var(--background);
+    margin: 0 auto;
+    /*Limitando até onde vão as informações*/
+    max-width: 900px;
+    /*Uma fonte melhor*/
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+/*Cabeçalho com o nome da empresa*/
+header{
+    color: var(--main);
+    background-color: var(--header);
+    /*Deixando o texto no centro do header*/
+    text-align: center;
+    /*Bordas*/
+    border: solid var(--preto)  2px;
+    /*Mudando o tamanho do header*/
+    padding: 7px;
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /*Cor de fundo onde vão ficar as informações do notebook*/
+    background-color: var(--main);
+    border-left: solid var(--preto) 2px;
+    border-right: solid var(--preto) 2px;
+}
+
+.nome{
+    font-size: 30px;
+}
+
+.vermelho{
+    color: var(--header);
+}
+
+header h1{
+    font-size: 50px;
+}
+
+/*Tamanho do imagem e deixando com bordas arredondadas*/
+img{
+    height: auto;
+    width: 200px;
+    border-radius: 7px;
+}
+
+/*Botão para interações futuras*/
+button{
+    background-color: var(--corBtn);
+    color: var(--corFooter);
+    border-radius: 5px;
+    margin-left: 337px;
+    margin-bottom: 10px;
+    /*Colocando uma sombra no botão*/
+    box-shadow: #423E3B 5px 3px 5px;
+}
+
+article{
+    text-align: justify;
+    max-width: 500px;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Tentando deixar um pouco parecido com o excel*/
+ul li{
+    padding-left: 20px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: solid var(--bordaCinza) 1.8px;
+    max-width: 442px;
+}
+
+footer{
+    color: var(--corFooter);
+    /*Cor de fundo do footer*/
+    background-color: var(--preto);
+    /*Alinhando o texto*/
+    text-align: center;
+    /*Tamanho do footer*/
+    padding: 30px;
+}
